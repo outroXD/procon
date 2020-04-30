@@ -1,0 +1,10 @@
+#!/usr/bin/env python
+# -*- coding: utf-8 -*-
+
+N = int(input())
+A = int(input())
+
+if (N % 500) <= A:
+    print('Yes')
+else:
+    print('No')

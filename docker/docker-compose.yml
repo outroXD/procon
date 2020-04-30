@@ -1,0 +1,14 @@
+version: '2.3'
+services:
+  procon:
+    build:
+      context: ../
+      dockerfile: docker/Dockerfile
+    ports:
+      - '50022:22'
+      - '50080:80'
+      - '58000:8000'
+    cpuset: 0-1
+    mem_limit: 1g
+    privileged: true
+    tty: true
