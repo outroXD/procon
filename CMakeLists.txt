@@ -467,5 +467,6 @@ add_executable(procon
 #        solvers/atcoder/ABC/ABC160/d.cpp
 #        solvers/atcoder/ABC/ABC161/a.cpp
 #        solvers/atcoder/ABC/ABC161/b.cpp
-        solvers/atcoder/ABC/ABC161/c.cpp?
-        )
+#        solvers/atcoder/ABC/ABC161/c.cpp
+#        solvers/atcoder/ABC/ABC162/a.cpp
+        solvers/atcoder/ABC/ABC162/b.cpp solvers/atcoder/ABC/ABC162/c.cpp)
