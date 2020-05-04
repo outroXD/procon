@@ -1,4 +1,6 @@
-#include <bits/stdc++.h>
+#include <iostream>
+#include <algorithm>
+
 typedef long long ll;
 const int INF = 1e9;
 const int MOD = 1e9+7;
@@ -15,10 +17,13 @@ int main()
 {
     int K; cin >> K;
 
+    long long ans = 0l;
     rrep (a, 1, K) {
         rrep (b, 1, K) {
             rrep (c, 1, K) {
+                ans += __gcd(a, __gcd(b, c));
             }
         }
     }
+    cout << ans << endl;
 }
