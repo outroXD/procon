@@ -486,5 +486,6 @@ add_executable(procon
 #        algorithms/mod.cpp
 #        solvers/atcoder/ABC/ABC165/a.cpp
 #        solvers/atcoder/ABC/ABC165/b.cpp
-        solvers/atcoder/ABC/ABC165/c.cpp
+#        solvers/atcoder/ABC/ABC165/c.cpp
+        solvers/atcoder/ABC/ABC165/d.cpp
         )
