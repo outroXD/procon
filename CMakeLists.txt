@@ -497,5 +497,8 @@ add_executable(procon
 #        solvers/atcoder/ABC/ABC167/d.cpp  // TODO
 #        solvers/atcoder/ABC/ABC168/a.cpp
 #        solvers/atcoder/ABC/ABC168/b.cpp
-        solvers/atcoder/ABC/ABC168/c.cpp
+#        solvers/atcoder/ABC/ABC168/c.cpp
+#        algorithms/fib/fib1.cpp
+#        solvers/atcoder/EducationalDPContest/a_4.cpp
+        solvers/atcoder/EducationalDPContest/b_2.cpp
         )
